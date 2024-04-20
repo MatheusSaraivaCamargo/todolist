@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body,html{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+
+
+header > p{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    display: flex;
+    position: fixed;
+    background-color: yellow;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    box-shadow: 1px 1px 1px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    top: 30px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    margin-left: 50px;
+    font-size: large;
+}
+
+li > a{
+    text-decoration: none;
+    color: #0055b8;
+}
+
+li > a:hover{
+    text-decoration: underline;
+}
+
+#logo{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    color: #0055b8;
+}
+
+main{
+    height: 5500px;
+}
+
+#links{
+    display: flex;
+    width: 50%;
+    margin-left: 10px;
+    align-items: center;
+
+}
+
+#bold{
+    font-weight: bold;
+}
+
+#container{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background: url("imagens/hero.png") no-repeat center gray;
+    background-size: cover;
+
+}
+
+span{
+    color: #0055b8;
+}
+
+.fonte{
+    font-family: 'Grandstander', sans-serif;
+    letter-spacing: -0.1rem;
+    font-size: 4.5rem;
+}
+
+.metade{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+#imagens{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+}
+
+.imagem{
+    width: 76px;
+    height: 60px;
+}
+
+#listaimagens{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.conteudobox{
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+.botaocheio{
+    margin-top: 20px;
+    padding: 15px 20px;
+    background-color: #0055b8;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.conteudobox > div{
+    padding: 20px 20px;
+}
+
+.botaovazio{
+    margin-top: 20px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    color: #0055b8;
+    cursor: pointer;
+    font-size: large;
+    border-color: #0055b8;
+}
+
+.tamanho{
+    height: 80%;
+    width: 40%;
+}
+
+#total{
+    margin: 30px 30px;
+}
+
+#items{
+    margin-top: 20px;
+    display: grid;
+    width: 60%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+}
+
+.containeritem{
+    border-radius: 8px;
+    background-color: white;
+    margin: 0 10px;
+    width: 200px;
+    height: 450px;
+    border: 1px solid gray;
+}
+
+.boximagem{
+    width: 100%;
+    height: 50%;
+}
+
+.imagemcomida{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#boxtexto{
+    width: 100%;
+    height: 50%;
+}
+
+#total > h2{
+    margin: 0;
+}
+
+#total > p{
+    margin-bottom: 10px;
+}
+
+.texto{
+    text-align: center; 
+    margin: 10px 10px;
+    font-family: "Grandstander", sans-serif;
+}
+
+.container2{
+    background-color: rgb(206, 198, 198);
+    width: 100%;
+}
+
+#dentrocontainer2{
+    width: 30%;
+    margin: 10px auto;
+}
+
+#dentrocontainer2 > h2{
+    text-align: center;
+    font-size: xx-large;
+}
+
+summary{
+    margin: 10px;
+}
+
+details{
+    border-bottom: 3px solid #0055b8;
+    margin: 10px 0px;
+    color: #0055b8;
+}
+
+#inscreva{
+    width: 70%;
+    height: 80%;
+    margin: 20px auto;
+}
+
+#inscreva > p{
+    padding: 20px;
+}
+
+#email{  
+    width: 40%;
+    background-color: rgb(223, 215, 215);
+    margin-right: 20px;
+}
+
+footer{
+    background-color: rgb(206, 198, 198);
+    width: 100%;
+    height: 40px;
+}
+
+footer > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#lista{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+    width: 60%;
+    margin: auto;
+}
+
+
+#lista > div{
+    list-style-type: none;
+    color:#0055b8;
+}
+
+#lista > div > p{
+    color: black;
+    font-weight: bold;
+}
