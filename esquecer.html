@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 60px;
+            box-shadow: 1px 1px 3px;
+            position: fixed;
+            background-color: black;
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+            color: red;
+        }
+        li{
+            margin: 0px 30px;
+        }
+        a{
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Primeiro</a></li>
+                <li><a href="">Segundo</a></li>
+                <li><a href="">Terceiro</a></li>
+                <li><a href="">Quarto</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div id="externa">
+            <div id="interna">
+                <h2>Redefinir senha</h2>
+                <form>
+                    <input type="password" id="novasenha" required placeholder="coloque sua nova senha">
+                </form>
+                    <input type="submit" value="Nova Senha" onclick="novasenha()" id="botao">
+            </div>
+        </div>  
+</body>
+</html>

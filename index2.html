@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<script>
+
+</script>
+<style> 
+
+    html, body{
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(163, 158, 158);
+    }
+
+    nav, header{
+        display: flex;
+        width: 100%;
+        height: 45px;
+        background-color: black;
+        position: fixed;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    ul{
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        list-style-type: none;
+        display: flex;
+    }
+
+    li{
+        width: 20%;
+        margin: 0px 40px;
+        color: red;
+    }
+
+    #logo{
+        width: 20%;
+        margin: auto;
+    }
+
+    main{
+        width: 100%;
+        text-align: center
+    }
+
+
+    #procura{
+        display: flex;
+        font-size: xx-large;
+        margin: 100px auto;
+        width: 60%;
+        height: 70px;
+        text-align: center;
+        color: red;
+        position: sticky;
+    }
+
+
+</style>
+<body onload="carregar()">
+    <header>
+        <nav>
+            <img src="" alt="logo" id="logo">
+            <ul>
+
+                <li><a href="">Home</a></li>
+                <li><a href="">Catálogo</a></li>
+                <li><a href="">Produtos</a></li>
+                <li><a href="">Sobre nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="mensagem"></div>
+        <input type="text" name="" id="procura" class="rounded-xl" onkeyup="procura(event)">
+
+        <div id="dentro"></div>
+    </main>
+        <script src="script.js"></script>
+</body>
+</html>
